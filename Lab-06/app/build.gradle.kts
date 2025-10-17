@@ -44,3 +44,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.0.1")
     //implementation(files("""C:\Users\danie\AppData\Local\Android\Sdk\platforms\android-36\android.jar"""))
 }
+//had to add this after I pushed to repo since for some reason it wouldn't detect the tests even though it did before
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
