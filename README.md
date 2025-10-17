@@ -1,3 +1,3 @@
 # Lab-06
 Daniel Zhong's Lab 6
-javadoc is within app/javadocs
+javadoc is within Lab-06/app/javadocs
